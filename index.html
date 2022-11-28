@@ -22,17 +22,18 @@
 </head>
 
 <body>
+  <div class="container-fluid divisor-1"> </div>
   <!--inicio del header-->
   <nav class="navbar navbar-expand-lg bg-color">
     <div class="container-fluid">
-      <img src="images/Firmalogo.png" alt="Logo marca" width="350px" height="auto" class="img-fluid phlogo">
+      <img src="images/lafirmalogo.png" alt="Logo marca" width="550px" height="auto" class="img-fluid phlogo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
+        <div class="navbar-nav ms-auto nv">
           <a class="nav-link colorin" aria-current="page" href="index.html"><b>Home</b></a>
           <a class="nav-link colorin" href="quien.html">Quien soy</a>
           <a class="nav-link colorin" href="servicios.html">Servicios</a>
@@ -45,6 +46,7 @@
   </nav>
    <!--Fin del header-->
         <!--comienzo del contenido-->
+        <div class="container-fluid divisor"> </div>
   <section class="containter-fluid">
     <div class="row p-5">
       <div class="col-xl-6 col-md-12 col-sm-12"><img src="images/IMG_20200812_154927_1.jpg"
@@ -59,8 +61,36 @@
         </p>
       </div>
     </div>
-  </section>
+    <!--Carousel inicio-->
+    <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/samurai.jpg" class="d-block w-100 p-5" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pinceles.jpg" class="d-block w-100 p-5" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/9.jpg" class="d-block w-100 p-5" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Fin del Carousel-->
   <!--fin del contenido-->
+  <div class="container-fluid divisor"> </div>
 
   <footer>
 
@@ -80,6 +110,7 @@
       </div>
     </div>
   </footer>
+  <div class="container-fluid divisor-1"> </div>
 
 
 

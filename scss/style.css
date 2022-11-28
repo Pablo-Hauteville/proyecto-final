@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&family=Source+Code+Pro:wght@200;400;600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -11,17 +13,28 @@
 }
 
 .phlogo {
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 /*body*/
 body {
   font-family: "Inter", sans-serif;
-  background-color: rgb(31, 31, 39);
+  background-color: rgb(15, 15, 19);
+}
+
+.divisor {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.divisor-1 {
+  background-color: rgb(15, 15, 19);
+  padding: 25px;
 }
 
 /*parrafos / encabezados /texto*/
 .parrafoHome {
+  font-family: "Source Code Pro", monospace;
   font-size: 24px;
   margin-top: 5%;
   text-align: center;
@@ -31,6 +44,7 @@ body {
 h1,
 h2,
 h3 {
+  font-family: "Inter", sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 5%;
@@ -38,10 +52,12 @@ h3 {
 }
 
 #homeTitle {
+  font-family: "Source Code Pro", monospace;
   margin-top: 10%;
 }
 
 .gallery-description {
+  font-family: "Inter", sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
   margin-top: 5%;
@@ -60,6 +76,11 @@ h3 {
   width: 100%;
   border-radius: 22px;
   border-color: antiquewhite;
+}
+
+.carousel {
+  margin-top: 10px;
+  margin-left: 25%;
 }
 
 /*Galería de imagenes*/

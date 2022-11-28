@@ -8,11 +8,23 @@ body {
 
 .divisor {
     background-color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 2px;
     
 }
 
 .divisor-1{
-    background-color: rgb(15, 15, 19);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: rgb(136, 61, 0);
     padding: 25px;
+    text-align: center;
+    font-size: medium;
+    color: blanchedalmond;
+
+}
+
+.divisor-2{
+    background-color: rgb(26, 26, 39);
+    padding: 20px;
 }

@@ -35,12 +35,20 @@ body {
   padding: 25px;
   text-align: center;
   font-size: medium;
-  color: blanchedalmond;
+  color: antiquewhite;
+  font-family: "Source Code Pro", monospace;
 }
 
 .divisor-2 {
-  background-color: rgb(26, 26, 39);
+  background-color: rgb(121, 121, 194);
   padding: 20px;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-family: "Source Code Pro", monospace;
+}
+.divisor-2 .cafe {
+  margin-left: 30px;
 }
 
 /*parrafos / encabezados /texto*/
@@ -104,8 +112,6 @@ h3 {
 
 /*Seccion contacto*/
 .logos {
-  display: flex;
-  justify-content: center;
   width: 150px;
   margin: 150px;
   padding-top: 5px;
